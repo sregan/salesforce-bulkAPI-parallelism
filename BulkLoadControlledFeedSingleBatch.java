@@ -12,12 +12,12 @@ import com.sforce.ws.ConnectorConfig;
 
                         
     
-public class BulkLoadParallelWait {
+public class BulkLoadControlledFeedSingleBatch {
 
 
 	public static void main(String[] args)
 			throws AsyncApiException, ConnectionException, IOException {
-		BulkLoadParallelWait bl = new BulkLoadParallelWait();
+		BulkLoadControlledFeedSingleBatch bl = new BulkLoadControlledFeedSingleBatch();
 		// Replace arguments below with your credentials and test file name
 		bl.runSample(args[0], "<username>", "<password>", args[1]);
 	}
